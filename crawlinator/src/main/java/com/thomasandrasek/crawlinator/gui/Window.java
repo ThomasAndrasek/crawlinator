@@ -1,4 +1,4 @@
-package com.thomasandrasek.thecrawlinator.gui;
+package com.thomasandrasek.crawlinator.gui;
 
 import javax.swing.JFrame;
 
@@ -13,7 +13,9 @@ public class Window extends JFrame {
 		
 		super();
 		
-		super.setSize(getMaximumSize());
+		int defaultHeight = 600;
+		int defaultWidth = 800;
+		super.setSize(defaultWidth, defaultHeight);
 		super.setExtendedState(JFrame.MAXIMIZED_BOTH);
 		
 		super.setTitle("The Crawlinator");

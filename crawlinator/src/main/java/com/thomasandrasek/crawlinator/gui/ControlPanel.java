@@ -1,4 +1,4 @@
-package com.thomasandrasek.thecrawlinator.gui;
+package com.thomasandrasek.crawlinator.gui;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

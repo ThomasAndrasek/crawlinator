@@ -1,4 +1,4 @@
-package com.thomasandrasek.thecrawlinator.graph;
+package com.thomasandrasek.crawlinator.graph;
 
 import java.util.ArrayList;
 import java.util.HashMap;
