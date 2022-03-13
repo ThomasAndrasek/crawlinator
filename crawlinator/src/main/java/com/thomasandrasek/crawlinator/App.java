@@ -2,6 +2,7 @@ package com.thomasandrasek.crawlinator;
 
 import java.io.IOException;
 
+import com.thomasandrasek.crawlinator.crawler.Crawler;
 import com.thomasandrasek.crawlinator.graph.Graph;
 import com.thomasandrasek.crawlinator.gui.Window;
 
@@ -16,41 +17,13 @@ import org.jsoup.select.Elements;
  */
 public class App 
 {
+	public static Crawler crawler;
+
+	public static Window window;
     public static void main(String[] args) {
 		
-		new Window();
-		
-		// Document doc = null;
-		// try {
-		// 	doc = Jsoup.connect(args[0]).get();
-		// } catch (IOException e) {
-		// 	// TODO Auto-generated catch block
-		// 	e.printStackTrace();
-		// }
-		// if (doc == null) {
-		// 	System.out.println("Failed to get page!");
-		// 	return;
-		// }
-		// System.out.println(doc.title());
-		// Elements newsHeadlines = doc.select("#mp-itn b a");
-		// for (Element headline : newsHeadlines) {
-		//   System.out.printf("%s\n\t%s", 
-		//     headline.attr("title"), headline.absUrl("href"));
-		// }
-		
-		// System.out.println(doc.html());
-		
-		Graph g = new Graph();
-		
-		g.addEdge("a", "a");
-		g.addEdge("a", "b");
-		g.addEdge("a", "h");
-		g.addEdge("a", "c");
-		g.addEdge("a", "c");
-		g.addEdge("a", "t");
-		g.addEdge("a", "s");
-		g.addEdge("a", "z");
-		g.addEdge("a", "a");
-		g.addEdge("a", "r");
+		crawler = new Crawler("https://www.thomasandrasek.com/");
+
+		window = new Window();
 	}
 }

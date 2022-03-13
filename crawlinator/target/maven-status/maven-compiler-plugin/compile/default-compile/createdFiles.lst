@@ -1,4 +1,5 @@
 com\thomasandrasek\crawlinator\graph\Graph.class
 com\thomasandrasek\crawlinator\gui\ControlPanel.class
+com\thomasandrasek\crawlinator\crawler\Crawler.class
 com\thomasandrasek\crawlinator\App.class
 com\thomasandrasek\crawlinator\gui\Window.class
