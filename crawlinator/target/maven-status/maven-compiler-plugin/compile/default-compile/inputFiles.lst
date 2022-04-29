@@ -1,5 +1,7 @@
-C:\Users\Thomas\Desktop\Work Space\crawlinator\The-Crawlinator\crawlinator\src\main\java\com\thomasandrasek\crawlinator\App.java
-C:\Users\Thomas\Desktop\Work Space\crawlinator\The-Crawlinator\crawlinator\src\main\java\com\thomasandrasek\crawlinator\graph\Graph.java
-C:\Users\Thomas\Desktop\Work Space\crawlinator\The-Crawlinator\crawlinator\src\main\java\com\thomasandrasek\crawlinator\crawler\Crawler.java
-C:\Users\Thomas\Desktop\Work Space\crawlinator\The-Crawlinator\crawlinator\src\main\java\com\thomasandrasek\crawlinator\gui\Window.java
-C:\Users\Thomas\Desktop\Work Space\crawlinator\The-Crawlinator\crawlinator\src\main\java\com\thomasandrasek\crawlinator\gui\ControlPanel.java
+C:\Users\kille\Desktop\workspace\crawlinator\The-Crawlinator\crawlinator\src\main\java\com\thomasandrasek\crawlinator\crawler\LinkChecker.java
+C:\Users\kille\Desktop\workspace\crawlinator\The-Crawlinator\crawlinator\src\main\java\com\thomasandrasek\crawlinator\crawler\CrawlThread.java
+C:\Users\kille\Desktop\workspace\crawlinator\The-Crawlinator\crawlinator\src\main\java\com\thomasandrasek\crawlinator\gui\Window.java
+C:\Users\kille\Desktop\workspace\crawlinator\The-Crawlinator\crawlinator\src\main\java\com\thomasandrasek\crawlinator\crawler\Crawler.java
+C:\Users\kille\Desktop\workspace\crawlinator\The-Crawlinator\crawlinator\src\main\java\com\thomasandrasek\crawlinator\gui\ControlPanel.java
+C:\Users\kille\Desktop\workspace\crawlinator\The-Crawlinator\crawlinator\src\main\java\com\thomasandrasek\crawlinator\crawler\OutputChecker.java
+C:\Users\kille\Desktop\workspace\crawlinator\The-Crawlinator\crawlinator\src\main\java\com\thomasandrasek\crawlinator\App.java
